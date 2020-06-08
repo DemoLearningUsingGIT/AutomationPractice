@@ -39,6 +39,7 @@ public class HomepageTest {
 		 driver.findElement(By.xpath("//button[@type='submit']")).click();
 		 Thread.sleep(5000);
 		 System.out.println("=== Successfully loged in ===");		
+		 System.out.println("-------  Added GIT ------");//
 	}	
 	@AfterMethod
 	public void after()
